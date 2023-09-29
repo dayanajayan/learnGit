@@ -60,18 +60,18 @@ for (let i=0; i<studentDetails.length; i++){
    // console.log(studentDetails[i].name+" Score is: "+grandTotal+ " Percentage is: "+percentage);
 if((percentage>35 && percentage<=60 ))
 {
-    console.log(studentDetails[i].name+" Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
-    +percentage+" Second Class Pass");
+    console.log(studentDetails[i].name+": Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
+    +percentage+" - Second Class Pass");
 }
 else if((percentage>60 && percentage<=90 ))
 {
-    console.log(studentDetails[i].name+" Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
-    +percentage+" First Class Pass");
+    console.log(studentDetails[i].name+": Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
+    +percentage+" - First Class Pass");
 }
 else if((percentage>90 && percentage<=100 ))
 {
-    console.log(studentDetails[i].name+" Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
-    +percentage+" Distinction Pass");
+    console.log(studentDetails[i].name+": Total Marks Obtained is: "+grandTotal+" and its Percentage is:  "
+    +percentage+" - Distinction Pass");
 }
 else{
     console.log("Fail");
